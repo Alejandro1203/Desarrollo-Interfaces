@@ -8,3 +8,13 @@ C:\Users\USUARIO\Documents\Visual Studio 2022\RehechoVentaCoches\obj\Debug\Rehec
 C:\Users\USUARIO\Documents\Visual Studio 2022\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Documents\Visual Studio 2022\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.exe
 C:\Users\USUARIO\Documents\Visual Studio 2022\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.pdb
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\bin\Debug\RehechoVentaCoches.exe.config
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\bin\Debug\RehechoVentaCoches.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\bin\Debug\RehechoVentaCoches.pdb
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.Form1.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RehechoVentaCoches\obj\Debug\RehechoVentaCoches.pdb

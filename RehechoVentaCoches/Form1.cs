@@ -48,6 +48,50 @@ namespace RehechoVentaCoches
             }
         }
 
+        private void actualizarPrecioModelo()
+        {
+            textBox_PrecioCoche.Text = listaCoches[comboBox_Modelo.SelectedIndex].Precio.ToString();
+            actualizarBaseImponible();
+        }
+
+        private void actualizarPrecioExtras()
+        {
+            int total = 0;
+            string item;
+
+            foreach(DataGridViewRow row in dataGridView_ExtrasSeleccionados.Rows)
+            {
+                item = row.Cells[0].Value.ToString();
+
+                total += listaExtras.First(i => i.Nombre.Equals(item)).Precio;
+            }
+
+            textBox_PrecioExtras.Text = total.ToString();
+            actualizarBaseImponible();
+        }
+
+        private void actualizarBaseImponible()
+        {
+            textBox_BaseImponible.Text = Convert.ToString(Convert.ToInt64(textBox_PrecioCoche.Text) + Convert.ToInt64(textBox_PrecioExtras.Text));
+            actualizarIVA();
+        }
+
+        private void actualizarIVA()
+        {
+            textBox_IVA.Text = Convert.ToString((Convert.ToInt64(textBox_PrecioCoche.Text) + Convert.ToInt64(textBox_PrecioExtras.Text)) * 0.21);
+            actualizarTotal();
+        }
+
+        private void actualizarIntereses()
+        {
+            actualizarTotal();
+        }
+
+        private void actualizarTotal()
+        {
+            textBox_PrecioTotal.Text = Convert.ToString(Convert.ToInt64(textBox_BaseImponible.Text) + Convert.ToInt64(textBox_IVA.Text) + Convert.ToInt64(textBox_InteresesPago.Text));
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -56,6 +100,8 @@ namespace RehechoVentaCoches
 
         private void comboBox_Modelo_SelectedIndexChanged(object sender, EventArgs e)
         {
+            dataGridView_ExtrasSeleccionados.Rows.Clear();
+
             switch(comboBox_Modelo.SelectedIndex)
             {
                 case 0:
@@ -73,6 +119,9 @@ namespace RehechoVentaCoches
                     cargarExtrasDisponibles(listaExtras, 14);
                     break;
             }
+
+            actualizarPrecioModelo();
+            actualizarPrecioExtras();
         }
 
         private void button_Anyadir_Click(object sender, EventArgs e)
@@ -95,6 +144,30 @@ namespace RehechoVentaCoches
                 {
                     listBox_ExtrasDisponibles.Items.Remove(v);
                 }
+
+                actualizarPrecioExtras();
+            }
+        }
+
+        private void button_Eliminar_Click(object sender, EventArgs e)
+        {
+            if(dataGridView_ExtrasSeleccionados.SelectedRows.Count > 0)
+            {
+                listBox_ExtrasDisponibles.Items.Add(dataGridView_ExtrasSeleccionados.SelectedRows[0].Cells[0].Value.ToString());
+                dataGridView_ExtrasSeleccionados.Rows.RemoveAt(dataGridView_ExtrasSeleccionados.SelectedRows[0].Index);
+
+                actualizarPrecioExtras();
+            }
+        }
+
+        private void checkBox_Financiacion_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox_Financiacion.Checked)
+            {
+                panel_Financiacion.Enabled = true;
+            } else
+            {
+                panel_Financiacion.Enabled = false;
             }
         }
     }
