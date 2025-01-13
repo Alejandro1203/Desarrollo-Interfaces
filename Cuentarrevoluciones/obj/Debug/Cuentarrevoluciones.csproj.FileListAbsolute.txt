@@ -1,0 +1,15 @@
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\bin\Debug\Cuentarrevoluciones.exe.config
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\bin\Debug\Cuentarrevoluciones.exe
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\bin\Debug\Cuentarrevoluciones.pdb
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\MainWindow.g.cs
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\App.g.cs
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones_MarkupCompile.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones_MarkupCompile.lref
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\MainWindow.baml
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.g.resources
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.exe
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Cuentarrevoluciones\obj\Debug\Cuentarrevoluciones.pdb
