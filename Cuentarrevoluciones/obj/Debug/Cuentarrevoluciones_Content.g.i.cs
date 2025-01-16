@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("flecha-izquierda.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("boton_apagado.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("boton_encendido.png")]
 
 

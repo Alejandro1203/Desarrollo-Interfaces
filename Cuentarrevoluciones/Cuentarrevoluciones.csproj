@@ -106,5 +106,9 @@
   <ItemGroup>
     <Resource Include="flecha-izquierda.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="boton_apagado.png" />
+    <Resource Include="boton_encendido.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
