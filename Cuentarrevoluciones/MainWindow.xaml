@@ -21,9 +21,6 @@
         <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
         <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
         <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
         <Style x:Key="BaseButtonStyle" TargetType="{x:Type ButtonBase}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
@@ -44,9 +41,6 @@
                                 <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
                             </Trigger>
                             <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
-                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
-                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -71,9 +65,6 @@
         <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
         <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FFC4E5F6"/>
         <SolidColorBrush x:Key="Button.Pressed.Border1" Color="#FF2C628B"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FFF4F4F4"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FFADB2B5"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF838383"/>
         <Style x:Key="BaseButtonStyle1" TargetType="{x:Type ButtonBase}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background1}"/>
@@ -94,9 +85,6 @@
                                 <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
                             </Trigger>
                             <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background1}"/>
-                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border1}"/>
-                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground1}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -105,6 +93,9 @@
         </Style>
         <Style x:Key="RepeatButtonStyle2" BasedOn="{StaticResource BaseButtonStyle1}" TargetType="{x:Type RepeatButton}">
             <Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="SelectedIndex" Value="0"/>
         </Style>
     </Window.Resources>
 
@@ -139,7 +130,7 @@
             <Rectangle Fill="Black" HorizontalAlignment="Left" Height="40" Margin="360,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="108"/>
             <Label x:Name="label_Revoluciones" Content="0" Background="#9BC1EED5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="367,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.052,0.03" Height="32" Width="94"/>
             <Image x:Name="img_strat_stop" Source="/boton_apagado.png" HorizontalAlignment="Left" Height="72" Margin="597,122,0,0" VerticalAlignment="Top" Width="80" MouseLeftButtonDown="img_strat_stop_MouseLeftButtonDown" Stretch="Fill"/>
-            <ComboBox x:Name="desplegable_cv" HorizontalAlignment="Left" Margin="99,253,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBox x:Name="desplegable_cv" HorizontalAlignment="Left" Margin="99,253,0,0" VerticalAlignment="Top" Width="120">
                 <ComboBoxItem Content="50 CV"/>
                 <ComboBoxItem Content="100 CV"/>
                 <ComboBoxItem Content="150 CV"/>

@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Resources;
-using System.Windows.Shapes;
 
 namespace Cuentarrevoluciones
 {
@@ -21,12 +11,11 @@ namespace Cuentarrevoluciones
     /// </summary>
     public partial class MainWindow : Window
     {
-        double num = 0;
         private int _revoluciones = 0;
+
         private const int REVOL_MIN_STOP = 0;
-        private const int REVOL_MIN_START = 1000;
-        private const int REVOL_MAX = 9000;
         private const int REVOL_START = 1000;
+        private const int REVOL_MAX = 9000;
         private const double ANGLE_MIN = -43.991;
         private const double ANGLE_MAX = 223.367;
         private const double ANGLE_START = -15.41957142857143;
@@ -39,18 +28,17 @@ namespace Cuentarrevoluciones
         private void setRevol()
         {
             label_Revoluciones.Content = _revoluciones.ToString();
+            opacityMask.StartPoint = new Point(1 , 1 - (Convert.ToDouble(_revoluciones) / REVOL_MAX));
         }
 
         private void button_Acelerar_Click(object sender, RoutedEventArgs e)
         {
-            num += 0.01;
 
             if(_revoluciones <= REVOL_MAX)
             {
                 switch (desplegable_cv.SelectedIndex)
                 {
-                    case 0:
-                        opacityMask.StartPoint = new Point(1, 1- num);   
+                    case 0: 
                         _revoluciones += 42;
                         setRevol();
                         rotaFlecha.Angle += 1.25;
@@ -71,13 +59,13 @@ namespace Cuentarrevoluciones
                 
             } else
             {
-                label_Revoluciones.Content = 9000.ToString();
+                label_Revoluciones.Content = REVOL_MAX.ToString();
             }
         }
 
         private void button_Freno_Click(object sender, RoutedEventArgs e)
         {
-            if (_revoluciones > REVOL_MIN_START)
+            if (_revoluciones > REVOL_START)
             {
                 switch (desplegable_cv.SelectedIndex)
                 {
@@ -102,7 +90,7 @@ namespace Cuentarrevoluciones
             }
             else
             {
-                label_Revoluciones.Content = 1000.ToString();
+                label_Revoluciones.Content = REVOL_START.ToString();
             }
         }
 
