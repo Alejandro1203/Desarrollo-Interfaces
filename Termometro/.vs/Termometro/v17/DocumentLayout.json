@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|c:\\users\\alumno2425\\documents\\visual studio 2022\\termometro\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\termometro\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|solutionrelative:termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{542FC9B6-A733-4D62-B2CF-ED6D43DE66AF}|Termometro.csproj|solutionrelative:termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Termometro.cs",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\Termometro.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\Termometro.cs",
               "RelativeDocumentMoniker": "Termometro.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\Termometro.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\Termometro.cs",
               "RelativeToolTip": "Termometro.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwF8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwF8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:20:45.265Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Termometro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\Termometro.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\Termometro.cs",
               "RelativeDocumentMoniker": "Termometro.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\Visual Studio 2022\\Termometro\\Termometro.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Termometro\\Termometro.cs [Dise\u00F1o]",
               "RelativeToolTip": "Termometro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:18:46.727Z",
