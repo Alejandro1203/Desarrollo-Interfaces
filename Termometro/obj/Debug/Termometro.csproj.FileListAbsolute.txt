@@ -1,0 +1,18 @@
+C:\Users\ALUMNO2425\source\repos\Termometro\bin\Debug\Termometro.dll
+C:\Users\ALUMNO2425\source\repos\Termometro\bin\Debug\Termometro.pdb
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.Properties.Resources.resources
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.Termometro.resources
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.dll
+C:\Users\ALUMNO2425\source\repos\Termometro\obj\Debug\Termometro.pdb
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\bin\Debug\Termometro.dll
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\bin\Debug\Termometro.pdb
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.Termometro.resources
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.dll
+C:\Users\ALUMNO2425\Documents\Visual Studio 2022\Termometro\obj\Debug\Termometro.pdb
