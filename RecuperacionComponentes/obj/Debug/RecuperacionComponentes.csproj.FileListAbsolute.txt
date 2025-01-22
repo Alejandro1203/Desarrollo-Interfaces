@@ -1,0 +1,11 @@
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\bin\Debug\RecuperacionComponentes.exe.config
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\bin\Debug\RecuperacionComponentes.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\bin\Debug\RecuperacionComponentes.pdb
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.Componente.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.pdb
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\RecuperacionComponentes\obj\Debug\RecuperacionComponentes.Form1.resources
