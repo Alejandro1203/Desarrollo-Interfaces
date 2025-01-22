@@ -71,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VideoMarcador.resx">
       <DependentUpon>VideoMarcador.cs</DependentUpon>
@@ -89,16 +90,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\cero.png" />
-    <Content Include="assets\cinco.png" />
-    <Content Include="assets\cuatro.png" />
-    <Content Include="assets\dos.png" />
-    <Content Include="assets\nueve.png" />
-    <Content Include="assets\ocho.png" />
-    <Content Include="assets\seis.png" />
-    <Content Include="assets\siete.png" />
-    <Content Include="assets\tres.png" />
-    <Content Include="assets\uno.png" />
+    <Content Include="Resources\cero.png" />
+    <Content Include="Resources\cinco.png" />
+    <Content Include="Resources\cuatro.png" />
+    <Content Include="Resources\dos.png" />
+    <Content Include="Resources\nueve.png" />
+    <Content Include="Resources\ocho.png" />
+    <Content Include="Resources\seis.png" />
+    <Content Include="Resources\siete.png" />
+    <Content Include="Resources\tres.png" />
+    <Content Include="Resources\uno.png" />
+    <None Include="Resources\Inter-miami-cf-logo.png" />
+    <None Include="Resources\barca.png" />
+    <None Include="Resources\campo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,3 +9,14 @@ C:\Users\USUARIO\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partid
 C:\Users\USUARIO\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.exe
 C:\Users\USUARIO\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.pdb
 C:\Users\USUARIO\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.Form1.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\bin\Debug\Partido.exe.config
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\bin\Debug\Partido.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\bin\Debug\Partido.pdb
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.Form1.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.VideoMarcador.resources
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.exe
+C:\Users\ALUMNO2425\Documents\GitHub\Desarrollo-Interfaces\Partido\obj\Debug\Partido.pdb
