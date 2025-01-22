@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\partido\\videomarcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAWwGkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAMwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T08:29:41.939Z",
               "IsPinned": true,
