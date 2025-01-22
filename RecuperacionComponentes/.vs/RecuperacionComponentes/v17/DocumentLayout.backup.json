@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\recuperacioncomponentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\recuperacioncomponentes\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|solutionrelative:componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|solutionrelative:componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\recuperacioncomponentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE65C291-9E2A-42E9-B561-7C6D2E8100AC}|RecuperacionComponentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T11:44:59.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Componente.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Componente.cs",
               "RelativeDocumentMoniker": "Componente.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Componente.cs",
               "RelativeToolTip": "Componente.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAA5wGQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwGQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T11:03:39.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Componente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Componente.cs",
               "RelativeDocumentMoniker": "Componente.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\RecuperacionComponentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

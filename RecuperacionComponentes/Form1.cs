@@ -24,13 +24,14 @@ namespace RecuperacionComponentes
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if(_count < 4)
+            if(_count < 5)
             {
                 pictureBox1.Visible = !pictureBox1.Visible;
                 _count++;
             } else
             {
                 timer1.Stop();
+                pictureBox1.Visible = !pictureBox1.Visible;
                 _count = 0;
             }
         }
