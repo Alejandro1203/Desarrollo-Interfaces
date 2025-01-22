@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\partido\\videomarcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:videomarcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\partido\\videomarcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5CE7637F-9195-4542-9D1A-3518E8E79698}|Partido.csproj|solutionrelative:videomarcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +26,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VideoMarcador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\VideoMarcador.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\VideoMarcador.cs",
               "RelativeDocumentMoniker": "VideoMarcador.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\VideoMarcador.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\VideoMarcador.cs [Dise\u00F1o]",
               "RelativeToolTip": "VideoMarcador.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T20:19:08.424Z",
@@ -38,11 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\Partido\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T20:18:46.363Z",
