@@ -7,78 +7,86 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="encabezado">
-        <h1 id="logotipo">LOGOTIPO</h1>
-        <label>Buscar  <input type="text" id="search"/></label>
-    </div>
-    <div id="subEncabezado">
-        <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">LoremIpsumDolorSitaAmet</a>
-    </div>
-
-    <div id="columna_body">
-        <h3><a href="https://es.wikipedia.org/wiki/Noticia">Noticias</a></h3>
-        <label>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Lorem ipsum dolor sit amet</a></label>
-        <label>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Consectetuer adipiscing elit</a></label>
-        <label>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Donec molestie nunc eu sapien</a></label>
-        <label>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Maecenas aliquam dolor eget metus</a></label>
-        <label>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Fusce tristique lorem id metus</a></label>
-
-        <h3><a href="">Enlaces relacionados</a></h3>
-        <h4><a href="">Proin placerat</a></h2>
-        <h4><a href="">Nulla in felis</a></h2>
-        <h4><a href="">Nam luctus</a></h2>
-
-        <h3><a>Publicidad</a></h3>
-        <p>Etiam fermentum, nisl tincidunt blandit interdum, massa velit posuere dolor, sed euismod sem odio at mi.
-            Duis porta placerat arcu. Nullam felis pede, commodo vel, suscipit a, molestie vel, felis.
-            Maecenas mattis est vel est.
-        </p>
-        <label><a href="">Seguir leyendo...</a></label>
-    </div>
-
-    <div id="body">
-        <div id="body-principal">
-            <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
-            <img src="/assets/tachao.jpg" width="120" height="120">
-            <p>Nullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra,
-                dolor metus fringilla dui, vel aliquet pede diam tempor tortor. Vestibulum pulvinar urna et quam. Pellentesque habitant 
-                morbi tristique senectus et netus malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoree. Quisque
-                eget ipsum. <br> 
-                Donec commod, turpis vel venenatis sollicitudi, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequant
-                libero eget est 
-            </p>
-            <label><a href="">Seguir leyendo...</a></label>
-
-            <h2>Vivamus lobortis turpis ac ante fringilla faucibus</h2>
-            <img src="/assets/tachao.jpg" width="120" height="120">
-            <p>Quisque eget ipsum. Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus 
-                quis sapien. Ut consequat libero eget est.<br>
-                Cum sociis natoque  penalitus et magnis dis parturient montes, nascetur ridiculus mus. Nullam dictum hendrerit neque. Mauris
-                id ligula non elit mattis semper. Fusce arcu ipsum, tempus eget, tincidunt at, imperdient in, mi. <br>  
-                Sed fermentum cursus dolor. Aenean a diam. Phasellus feugiat. Donec tempor dignissim sem. 
-            </p>
-            <label><a href="">Seguir leyendo...</a></label>
+    <div id="container">
+        <div id="encabezado">
+            <h1 id="logotipo">LOGOTIPO</h1>
+            <div id="search">
+                <label >Buscar  <input type="text" /></label>
+            </div>
+            
         </div>
-
-        <div id="body-secundario">
-            <h2>Phasellus blandit</h2>
-            <p>Praesent sodales imperdient augue. Mauris lorem felis , semper eu, tincidunt eu, sollicitudin eget, sem. Nulla facilisi. 
-                Morbi ut enim ut enim ultricies dapibus.
-            </p>
-            <label><a href="">Seguir leyendo...</a></label>
-
-            <h2>Nullam vel turpis</h2>
-            <p>Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus 
-                quis sapien. Ut consequatlibero eget est.
-            </p>
-            <label><a href="">Seguir leyendo...</a></label>
+        <div id="subEncabezado">
+            <a id="enlaceSubencabezado" href="https://es.wikipedia.org/wiki/Lorem_ipsum">LoremIpsumDolorSitaAmet</a>
         </div>
-    </div>
-
-    <div id="pie-pagina">
-        <p><a href="">Nulla</a> | <a href="">Pharetra</a> | <a href="">Luctus</a> 
-            | <a href="">Ipsum</a> | <a href="">Proin</a> | <a href="">Placerant</a> @ Copyringt Lorem Ipsum</p>
-    </div>
     
+        <div>
+            <div id="columna-body">
+                <h3><a href="https://es.wikipedia.org/wiki/Noticia">Noticias</a></h3>
+                <h5 >dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Lorem ipsum dolor sit amet</a></h5>
+                <h5>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Consectetuer adipiscing elit</a></h5>
+                <h5>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Donec molestie nunc eu sapien</a></h5>
+                <h5>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Maecenas aliquam dolor eget metus</a></h5>
+                <h5>dd/mm/aaaa <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Fusce tristique lorem id metus</a></h5>
+        
+                <h3 id="enlaces-relacionados"><a href="">Enlaces relacionados</a></h3>
+                <h4><a href="">Proin placerat</a></h2>
+                <h4><a href="">Nulla in felis</a></h2>
+                <h4><a href="">Nam luctus</a></h2>
+        
+                <h3 id="publicidad"><a>Publicidad</a></h3>
+                <p>Etiam fermentum, nisl tincidunt blandit interdum, massa velit posuere dolor, sed euismod sem odio at mi.
+                    Duis porta placerat arcu. Nullam felis pede, commodo vel, suscipit a, molestie vel, felis.
+                    Maecenas mattis est vel est.
+                </p>
+                <label><a href="">Seguir leyendo...</a></label>
+            </div>
+        
+            <div id="body">
+                <div id="body-principal">
+                    <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+                    <img src="/assets/tachao.jpg" width="100" height="100">
+                    <p>Nullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra,
+                        dolor metus fringilla dui, vel aliquet pede diam tempor tortor. Vestibulum pulvinar urna et quam. Pellentesque habitant 
+                        morbi tristique senectus et netus malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoree. Quisque
+                        eget ipsum. <br> 
+                        Donec commod, turpis vel venenatis sollicitudi, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequant
+                        libero eget est 
+                    </p>
+                    <label><a href="">Seguir leyendo...</a></label>
+        
+                    <h2>Vivamus lobortis turpis ac ante fringilla faucibus</h2>
+                    <img src="/assets/tachao.jpg" width="100" height="100">
+                    <p>Quisque eget ipsum. Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus 
+                        quis sapien. Ut consequat libero eget est.<br>
+                        Cum sociis natoque  penalitus et magnis dis parturient montes, nascetur ridiculus mus. Nullam dictum hendrerit neque. Mauris
+                        id ligula non elit mattis semper. Fusce arcu ipsum, tempus eget, tincidunt at, imperdient in, mi. <br>  
+                        Sed fermentum cursus dolor. Aenean a diam. Phasellus feugiat. Donec tempor dignissim sem. 
+                    </p>
+                    <label><a href="">Seguir leyendo...</a></label>
+                </div>
+        
+                <div id="body-secundario">
+                    <h2>Phasellus blandit</h2>
+                    <p>Praesent sodales imperdient augue. Mauris lorem felis , semper eu, tincidunt eu, sollicitudin eget, sem. Nulla facilisi. 
+                        Morbi ut enim ut enim ultricies dapibus.
+                    </p>
+                    <label><a href="">Seguir leyendo...</a></label>
+        
+                    <h2>Nullam vel turpis</h2>
+                    <p>Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus 
+                        quis sapien. Ut consequatlibero eget est.
+                    </p>
+                    <label><a href="">Seguir leyendo...</a></label>
+                </div>
+            </div>
+        </div>
+    
+        <div id="pie-pagina">
+            <p id="enlaces"><a href="">Nulla</a> | <a href="">Pharetra</a> | <a href="">Luctus</a> 
+                | <a href="">Ipsum</a> | <a href="">Proin</a> | <a href="">Placerant</a></p>
+    
+            <p id="copyright"> @ Copyringt Lorem Ipsum</p>
+        </div>
+    </div>
 </body>
 </html>

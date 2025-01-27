@@ -1,30 +1,132 @@
-div {
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
-}
-
 a {
     color: blue;
     text-decoration: underline;
 }
 
+p {
+    margin: auto;
+    line-height: 1.2;
+}
 
-#logotipo {
-    margin-left: 10px;
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+img {
+    margin-top: 1%;
+    float: left;
+}
+
+#container {
+    margin: auto;
+    width: 900px;
 }
 
 #encabezado {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#logotipo {
+    float: left;
+    margin-left: 10px;
 }
 
 #search {
-    width: 200px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 20px;
-    margin-top: 20px;
+    position: relative;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 0.5%;
+}
+
+#subEncabezado {
+    padding: 0.33%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#columna-body {
+    float: left;
+    width: 18%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#enlaces-relacionados {
+    padding-top: 5%;
+}
+
+#publicidad {
+    padding-top: 5%;
+
+}
+
+#body {
+    float: right;
+    width: 80%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#body-principal {
+    clear: both;
+    float: left;
+    width: 74%;
+    padding-left: 0.5%;
+    padding-top: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#body-secundario {
+    float: right;
+    width: 24%;
+    margin-bottom: 1%;
+    padding-left: 0.5%;
+    padding-bottom: 0.5%;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#pie-pagina {
+    align-content: center;
+    clear: both;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+#enlaces {
+    float: left;
+    margin-left: 10px;
+}
+
+#copyright {
+    float: right;
+    margin-right: 10px;
 }
