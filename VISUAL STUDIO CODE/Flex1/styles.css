@@ -1,6 +1,32 @@
-#encabezado {
+#encabezado, #presentacion, #caracteristicas {
     display: flex;
     padding: 0% 10% 0% 10%;
+}
+
+#primera_caracteristica, #segunda_caracteristica, #tercera_caracteristica {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icono1, #icono2, #icono3 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+#titulo1, #titulo2, #titulo3 {
+    text-align: center;
+    margin: 0;
+}
+
+#parrafo1, #parrafo2, #parrafo3 {
+    width: 80%;
+    font-size: smaller;
+    text-align: center;
 }
 
 #menu {
@@ -10,10 +36,46 @@
     margin-left: auto;
 }
 
-#presentacion {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 0% 10% 0% 10%;
+#texto_presentacion {
+    margin-top: 10%;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
+#imagen_presentacion {
+    margin-left: auto;
+}
+
+#name {
+    color: skyblue;
+
+}
+
+#iam {
+    font-size: 300%;
+    width: 60%;
+    margin: 0;
+}
+
+#description {
+    width: 70%;
+}
+
+#btn_contactMe {
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 20%;
+    margin-top: 1em;
+}
+
+#caracteristicas {
+    background-color: lightblue;
+    justify-content: space-between;
+    height: 275px;
+}
