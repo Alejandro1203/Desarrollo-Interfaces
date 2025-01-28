@@ -1,0 +1,19 @@
+#encabezado {
+    display: flex;
+    padding: 0% 10% 0% 10%;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    margin-left: auto;
+}
+
+#presentacion {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0% 10% 0% 10%;
+}
+
