@@ -1,81 +1,150 @@
+button {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+}
+
 #encabezado, #presentacion, #caracteristicas {
+    padding: 0% 10% 2% 10%;
     display: flex;
-    padding: 0% 10% 0% 10%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #primera_caracteristica, #segunda_caracteristica, #tercera_caracteristica {
-    width: 30%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 #icono1, #icono2, #icono3 {
-    margin-top: 3em;
-    margin-bottom: 1em;
     height: 100px;
     width: 100px;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 #titulo1, #titulo2, #titulo3 {
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 #parrafo1, #parrafo2, #parrafo3 {
-    width: 80%;
+    width: 300px;
     font-size: smaller;
     text-align: center;
 }
 
+#portfolio1, #portfolio2, #portfolio3, #portfolio4 {
+    width: 200px;
+    height: 250px;
+    margin-top: 1em; 
+    margin-right: 0.5em;   
+}
+
 #menu {
-    list-style-type: none;
-    display: flex;
     gap: 1em;
-    margin-left: auto;
-}
-
-#texto_presentacion {
-    margin-top: 10%;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-#imagen_presentacion {
-    margin-left: auto;
+    display: flex;
+    list-style-type: none;
 }
 
 #name {
     color: skyblue;
-
 }
 
 #iam {
-    font-size: 300%;
-    width: 60%;
+    width: 350px;
     margin: 0;
+    font-size: 300%;
 }
 
 #description {
-    width: 70%;
+    width: 450px;
 }
 
 #btn_contactMe {
-    background-color: dodgerblue;
-    color: white;
-    border-color: dodgerblue;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    text-align: center;
-    width: 20%;
+    width: 120px;
     margin-top: 1em;
 }
 
 #caracteristicas {
-    background-color: lightblue;
-    justify-content: space-between;
     height: 275px;
+    background-color: lightblue;
+}
+
+#mis_trabajos {
+    padding: 0% 10% 2% 10%;
+    margin-top: 5em;
+    text-align: center;
+}
+
+#about {
+    padding: 0% 10% 2% 10%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+#contenido_about {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}
+
+#img_about {
+    width: 400px;
+    height: 250px;
+}
+
+#texto_about {
+    width: 400px;
+    font-size: smaller;
+}
+
+#contact {
+    padding: 0% 10% 0% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo_contact {
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#input_nombre, #input_email, #mensaje {
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 0.5em;
+    border-color: lightgray;
+}
+
+#input_nombre, #input_email {
+    height: 20px;
+}
+
+#btn_send {
+    width: 500px;
+}
+
+#pie_pagina {
+    background-color: lightgray;
+    padding: 0% 10% 0% 10%;
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
 }
