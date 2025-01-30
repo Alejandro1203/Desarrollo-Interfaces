@@ -2,16 +2,16 @@ button {
     padding: 0.5em;
     border-radius: 0.5em;
     text-align: center;
-    background-color: dodgerblue;
     color: white;
     border-color: dodgerblue;
+    background-color: dodgerblue;
 }
 
 #encabezado, #presentacion, #caracteristicas {
     padding: 0% 10% 2% 10%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 #primera_caracteristica, #segunda_caracteristica, #tercera_caracteristica {
@@ -21,8 +21,8 @@ button {
 }
 
 #icono1, #icono2, #icono3 {
-    height: 100px;
     width: 100px;
+    height: 100px;
     margin-top: 3em;
     margin-bottom: 1em;
 }
@@ -84,19 +84,19 @@ button {
 #about {
     padding: 0% 10% 2% 10%;
     margin-top: 2em;
-    display: flex;
-    flex-direction: column;
     background-color: lightgray;
-    justify-content: space-between;
     text-align: center;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #contenido_about {
-    display: flex;
-    justify-content: center;
     gap: 2em;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #img_about {
@@ -111,8 +111,8 @@ button {
 
 #contact {
     padding: 0% 10% 0% 10%;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 #titulo_contact {
@@ -137,14 +137,20 @@ button {
     height: 20px;
 }
 
+#mensaje {
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 200px;
+}
+
 #btn_send {
     width: 500px;
 }
 
 #pie_pagina {
-    background-color: lightgray;
     padding: 0% 10% 0% 10%;
-    display: flex;
     margin-top: 2em;
+    background-color: lightgray;
+    display: flex;
     justify-content: center;
 }
