@@ -22,6 +22,7 @@ namespace PruebaInformes_3
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            importApiData(reportViewer1);
 
             this.reportViewer1.RefreshReport();
         }
@@ -44,8 +45,8 @@ namespace PruebaInformes_3
             ReportDataSource reportDataSource1 = new ReportDataSource("DataSet1", listProducts);
             reporte.LocalReport.DataSources.Add(reportDataSource1);
 
-            ReportDataSource reportDataSource2 = new ReportDataSource("DataSet2", listaRatings);
-            reporte.LocalReport.DataSources.Add(reportDataSource2);
+            //ReportDataSource reportDataSource2 = new ReportDataSource("DataSet2", listaRatings);
+            //reporte.LocalReport.DataSources.Add(reportDataSource2);
         }
     }
 }
