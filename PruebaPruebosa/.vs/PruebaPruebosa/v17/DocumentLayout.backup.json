@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\pruebapruebosa\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|solutionrelative:tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\pruebapruebosa\\informes\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|solutionrelative:informes\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\huevos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE230FA7-1429-43B3-9746-549067AEB745}|PruebaPruebosa.csproj|solutionrelative:huevos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tienda.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Tienda.cs",
+              "RelativeDocumentMoniker": "Tienda.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Tienda.cs*",
+              "RelativeToolTip": "Tienda.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T18:07:56.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Huevos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Huevos.cs",
+              "RelativeDocumentMoniker": "Huevos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Huevos.cs",
+              "RelativeToolTip": "Huevos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:51:33.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report1.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Informes\\Report1.rdlc",
+              "RelativeDocumentMoniker": "Informes\\Report1.rdlc",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Informes\\Report1.rdlc [Dise\u00F1o]*",
+              "RelativeToolTip": "Informes\\Report1.rdlc [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-02-04T17:49:58.739Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaPruebosa\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:49:10.251Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1029,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

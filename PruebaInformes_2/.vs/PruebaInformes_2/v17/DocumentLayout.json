@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|c:\\users\\usuario\\documents\\github\\desarrollo-interfaces\\pruebainformes_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|c:\\users\\alumno2425\\documents\\github\\desarrollo-interfaces\\pruebainformes_2\\informes\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\informes\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
       "RelativeMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|solutionrelative:informes\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{108284F0-906F-4BFF-B20B-07357CB0354B}|PruebaInformes_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA8wCUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wCUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T12:33:07.573Z",
               "IsPinned": true,
@@ -46,25 +46,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Report1.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\informes\\Report1.rdlc",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\informes\\Report1.rdlc",
               "RelativeDocumentMoniker": "informes\\Report1.rdlc",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\informes\\Report1.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "informes\\Report1.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\informes\\Report1.rdlc [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-02-01T12:20:26.47Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-02-01T12:20:26.47Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ALUMNO2425\\Documents\\GitHub\\Desarrollo-Interfaces\\PruebaInformes_2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T12:16:19.525Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-02-01T12:16:19.525Z"
             }
           ]
         },
