@@ -82,7 +82,7 @@ namespace RecuperacionInforme
                 }
             }
 
-            ReportParameterFilas(listaLibros.Count);
+            
 
 
             if(listaLibros.Count == 0)
@@ -90,11 +90,13 @@ namespace RecuperacionInforme
                 reporte.LocalReport.DataSources.Clear();
                 ReportDataSource reportDataSource = new ReportDataSource("DataSet1", Lista_libros);
                 reporte.LocalReport.DataSources.Add(reportDataSource);
+                ReportParameterFilas(Lista_libros.Count);
             } else
             {
                 reporte.LocalReport.DataSources.Clear();
                 ReportDataSource reportDataSource = new ReportDataSource("DataSet1", listaLibros);
                 reporte.LocalReport.DataSources.Add(reportDataSource);
+                ReportParameterFilas(listaLibros.Count);
             }
             
         }
