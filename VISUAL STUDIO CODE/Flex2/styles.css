@@ -1,8 +1,11 @@
-.container {
-    margin: 5 auto;
+.image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.container {
+    margin: 5 auto;
     padding: 0% 10% 2% 10%;
 }
 
@@ -13,7 +16,8 @@
 
 #container {
     font-family: 'Roboto', sans-serif;
-    /* color: white; */
+    line-height: 1.5;
+    color: white;
 }
 
 #inicio_seccion {
@@ -30,6 +34,69 @@
     gap: 1em;
     display: flex;
     list-style-type: none;
+    cursor: pointer;
+}
+
+#contenido_inicio {
+    width: 450px;
+    flex-direction: column;
+}
+
+#img_inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+#img1, #img2, #img3 {
+    width: 350px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+#img1 {
+    background-image: url("assets/perseverance.jpg");
+}
+
+#img2 {
+    background-image: url("assets/missions.jpg");
+}
+
+#img3 {
+    background-image: url("assets/future.jpg");
+}
+
+#introduccion_seccion {
+    background-image: url("assets/feature.jpg");
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#perseverance_seccion {
+    background-image: url("assets/background-2.jpg");
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+#perseverance_content {
+    width: 100px;
+}
+
+#perseverance_img {
+    background-image: url("assets/perseverance-1.png");
+    width: 200px;
+    height: 200px;
+}
+
+#mission_img {
+    background-image: url("assets/missions-1.png");
+    width: 200px;
+    height: 200px;
 }
 
 /* #inicio_seccion {
