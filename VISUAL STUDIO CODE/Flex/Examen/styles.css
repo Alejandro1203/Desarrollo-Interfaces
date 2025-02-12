@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0% 10% 2% 10%; 
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;  
+    background-color: #DD2E0D;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.70;
+    border-color: white;
+}
+
+.btn-no {
+    background-color: #A3000D;
+}
+
+#container {
+    font-family: "Montserrat", serif; 
+    color: white;
+}
+
+#primera_seccion {
+    background-image: url("assets/showcase\ \(1\).jpg");
+    height: 600px;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: "Dancing Script", serif;   
+}
+
+#menu {
+    gap: 1em;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#contenido_primera_seccion {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#segunda_seccion {
+    height: 75px;
+    background-color: #A3000D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tercera_seccion {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img1, #img2, #img3 {
+    width: 350px;
+    height: 350px;
+}
+
+#btn_tercera_seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pie_pagina {
+    background-color: #A3000D;
+    height: 100px;
+}

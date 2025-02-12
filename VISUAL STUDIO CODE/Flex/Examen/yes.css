@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.container {
+    padding: 0% 10% 2% 10%;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #A3000D;
+}
+
+#container {
+    margin: 0 auto;
+    font-family: "Montserrat", serif;
+}
+
+#logo {
+    font-family: "Dancing Script", serif;   
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#menu {
+    gap: 1em;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#contenido {
+    height: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around; 
+    align-items: center;
+    gap: 3em;
+}
+
+#img_contenido {
+    width: 430px;
+    height: 430px;
+}
+
+#txt_contenido {
+    width: 450px;
+}

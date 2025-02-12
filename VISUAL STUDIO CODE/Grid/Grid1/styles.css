@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: "Source Code Pro", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#encabezado{
+    margin-top: 30px;
+}
+
+#introduccion {
+    width: 800px;
+}
+
+#contenedor_imagenes {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+    align-content: center;
+    text-align: center;
+}
+
+#img1 {
+    background-image: url("assets/image-1.jpg");
+    grid-column: span 2;
+}
+
+#img2 {
+    background-image: url("assets/image-2.jpg");
+}
+
+#img3 {
+    color: #F6F6F6;
+    background-image: url("assets/image-3.jpg");
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#img4 {
+    background-image: url("assets/image-4.jpg");
+}
+
+#img5 {
+    color: #F6F6F6;
+    background-image: url("assets/image-5.jpg");
+}
+
+#contenedor_footer {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#pie_pagina {
+    background-color: #F6F6F6;
+}

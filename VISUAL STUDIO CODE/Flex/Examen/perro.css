@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+#container {
+    height: 1000px;
+    background-image: url("assets/no.jpg");
+    font-family: "Montserrat", serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0% 10% 2% 10%;
+    color: white;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: "Dancing Script", serif;   
+}
+
+#menu {
+    gap: 1em;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#contenido {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
