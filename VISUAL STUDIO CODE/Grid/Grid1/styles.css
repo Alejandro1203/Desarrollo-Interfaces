@@ -8,6 +8,22 @@ a {
     text-decoration: none;
 }
 
+input[type="text"] {
+    border: 0;
+    text-decoration: underline;
+    color: #585858;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: #585858;
+    border: 0;
+    border-radius: 2px;
+    color: #F6F6F6;
+    cursor: pointer;
+}
+
 #container {
     max-width: 1100px;
     width: 80%;
@@ -25,7 +41,7 @@ a {
 }
 
 #introduccion {
-    width: 800px;
+    width: 80%;
 }
 
 #contenedor_imagenes {
@@ -66,14 +82,63 @@ a {
     background-image: url("assets/image-5.jpg");
 }
 
+#pie_pagina {
+    background-color: #F6F6F6;
+}
+
 #contenedor_footer {
     max-width: 1100px;
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-#pie_pagina {
-    background-color: #F6F6F6;
+#formulario {
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#title_footer {
+    grid-column: span 3;
+}
+
+#email {
+    grid-column: span 2;
+}
+
+#message {
+    grid-column: span 3;
+}
+
+@media (max-width: 480px) {
+    #contenedor_imagenes {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 30px;
+    }
+
+    #img1 {
+        grid-column: span 1;
+    }
+
+    #img3 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    #contenedor_footer {
+        max-width: 1100px;
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
