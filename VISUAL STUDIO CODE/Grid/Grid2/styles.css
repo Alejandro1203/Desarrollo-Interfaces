@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Titillium Web", serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.btn {
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: #FFFFFF;
+    color: #58BE8E;
+}
+
+.iconos {
+    width: 50px;
+    height: 50px;
+}
+
+.seccion {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    align-content: center;
+    padding: 10px;
+}
+
+#encabezado {   
+    background-color: #58BE8E;
+    color: #FFFFFF;
+    padding-bottom: 6px;
+}
+
+#navbar {
+    width: 50%;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+#secciones {
+    background-color: #E3FBF2;
+}
+
+#grid_secciones {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-top: 30px;
+    gap: 15px;
+}
+
+#seccion_1 {
+    grid-column: span 3;
+}
+
+#seccion_2 {
+    grid-column: span 3;
+}
+
+#seccion_3 {
+    grid-column: span 1;
+}
+
+#seccion_4 {
+    grid-column: span 4;
+}
+
+#seccion_5 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+#seccion_6 {
+    grid-column: span 1;
+}
+
+#seccion_7 {
+    grid-column: span 4;
+}
+
+@media (max-width: 500px) {
+    #grid_secciones {
+        grid-template-columns: 1fr;
+    }
+
+    #seccion_1 {
+        grid-column: span 1;
+    }
+    
+    #seccion_2 {
+        grid-column: span 1;
+    }
+    
+    #seccion_4 {
+        grid-column: span 1;
+    }
+    
+    #seccion_7 {
+        grid-column: span 1;
+    }
+}

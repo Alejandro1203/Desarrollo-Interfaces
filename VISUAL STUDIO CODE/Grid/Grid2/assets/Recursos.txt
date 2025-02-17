@@ -1,0 +1,5 @@
+Paleta de colores: E3FBF2 58BE8E FFFFFF 000000
+
+Tipografía: https://fonts.google.com/specimen/Titillium+Web
+
+Iconos animados: https://lordicon.com/
