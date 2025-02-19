@@ -45,7 +45,6 @@ a {
 }
 
 #navbar {
-    width: 50%;
     padding-top: 15px;
     align-items: center;
     text-align: center;
@@ -58,42 +57,42 @@ a {
 #grid_secciones {
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding-top: 30px;
     gap: 15px;
 }
 
 #seccion_1 {
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 #seccion_2 {
-    grid-column: span 3;
-}
-
-#seccion_3 {
-    grid-column: span 1;
+    grid-column: span 2;
 }
 
 #seccion_4 {
-    grid-column: span 4;
+    grid-column: span 2;
 }
 
 #seccion_5 {
-    grid-column: span 1;
     grid-row: span 2;
 }
 
-#seccion_6 {
-    grid-column: span 1;
-}
-
 #seccion_7 {
-    grid-column: span 4;
+    grid-column: span 2;
 }
 
 @media (max-width: 500px) {
+
+    body {
+        font-size: small;
+    }
+
+    .btn {
+        width: 150px;
+    }
+
     #grid_secciones {
         grid-template-columns: 1fr;
     }
