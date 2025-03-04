@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    font-size: x-small;
+    border-radius: 5px;
+    border: #FFFFFF;
+    background-color: black;
+}
+
+menu li {
+    display: inline;
+    margin-inline-start: 20px;
+    color: black;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icono {
+    width: 150px;
+    height: 150px;
+}
+
+.p_feature {
+    color: gray;
+}
+
+#cabecera {
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 150px;
+    height: 45px;
+}
+
+#grid_principal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 230vh;
+}
+
+#photo_stories,
+#beautiful_stories,
+#designed {
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#photo_stories,
+#designed {
+    background-color: black;
+    color: white;
+}
+
+#invite_beautiful_stories {
+    color: black;
+}
+
+#img_photo_stories {
+    background-image: url("assets/showcase-1.jpg");
+    grid-column: span 3;
+}
+
+#img_beautiful_stories {
+    background-image: url("assets/showcase-2.jpg");
+    grid-column: span 3;
+}
+
+#img_designed {
+    background-image: url("assets/showcase-3.jpg");
+    grid-column: span 3;
+}
+
+#grid_stories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 60vh;
+    color: white;
+}
+
+#mountains, #sunset, #voyage, #architecturals {
+    align-content: end;
+}
+
+#mountains {
+    background-image: url("assets/stories-mountain.jpg");
+}
+
+#sunset {
+    background-image: url("assets/stories-city.jpg");
+}
+
+#voyage {
+    background-image: url("assets/stories-voyage.jpg");
+}
+
+#architecturals {
+    background-image: url("assets/stories-building.jpg");
+}
+
+#grid_feature {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50vh;
+}
+
+@media (max-width: 770px) {
+
+    .icono {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cabecera {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #grid_principal {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #img_photo_stories {
+        grid-column: span 2;
+    }
+    
+    #img_beautiful_stories {
+        grid-column: span 2;
+    }
+    
+    #img_designed {
+        grid-column: span 2;
+    }
+
+    #grid_stories {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 180vh;
+    }
+
+    #grid_feature {
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
